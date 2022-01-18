@@ -1,6 +1,4 @@
-if (window.performance.navigation.type === 1) {
-  rollDice();
-}
+
 function rollDice(){
 var x = (Math.round(Math.random()*10))%6 + 1;
 var y = "images/dice"+x+".png";
